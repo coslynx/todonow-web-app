@@ -1,0 +1,28 @@
+{
+  "run:dev": {
+    "command": "npm run dev",
+    "description": "Starts the development server with HMR using Vite."
+  },
+  "run:build": {
+    "command": "npm run build",
+    "description": "Creates a production-ready static build using Vite and the static adapter."
+  },
+  "run:preview": {
+    "command": "npm run preview",
+    "description": "Locally serves the production build created by 'npm run build'."
+  },
+  "check:types": {
+    "command": "npm run check",
+    "description": "Runs Svelte type checking using svelte-check."
+  },
+  "check:lint": {
+    "command": "npm run lint",
+    "description": "Runs Prettier format check and ESLint."
+  },
+  "fix:format": {
+    "command": "npm run format",
+    "description": "Automatically formats code using Prettier."
+  },
+  "info:project_type": "SvelteKit Static SPA",
+  "info:persistence": "Browser localStorage"
+}
