@@ -1,0 +1,33 @@
+/* src/app.css */
+
+/*
+ * 1. Integrate Tailwind CSS layers.
+ *    These directives are processed by the Tailwind PostCSS plugin
+ *    (configured in postcss.config.cjs) to inject the necessary
+ *    base styles, component classes, and utility classes based on
+ *    the usage found in files specified in tailwind.config.cjs.
+ *    Order: base, components, utilities.
+ */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+ * 2. Custom global base styles (Minimal).
+ *    Avoid adding custom styles here if possible. Prefer utility classes
+ *    in components or Tailwind theme customization in tailwind.config.cjs.
+ *    Example (if needed, but not required for this MVP):
+ *    body {
+ *        @apply bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-gray-100;
+ *    }
+ */
+
+/*
+ * 3. Global CSS Custom Properties (Variables).
+ *    Define application-wide variables under :root if necessary.
+ *    None required for this MVP.
+ *    Example:
+ *    :root {
+ *        --brand-color: #ff3e00;
+ *    }
+ */
